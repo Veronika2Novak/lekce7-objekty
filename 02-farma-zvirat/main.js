@@ -22,6 +22,7 @@ poleZvirat.forEach(function(zviratko){
     let fotoZvirete = document.createElement("img");
     fotoZvirete.className = "foto";
     fotoZvirete.src = zviratko.foto;
+    fotoZvirete = zviratko.jmeno;
 
     let jmenoZvirete = document.createElement("span");
     jmenoZvirete.className = "jmeno";
